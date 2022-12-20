@@ -13,6 +13,8 @@ this Python project  to explore data related to bike share systems for three maj
 
 ### Files used
 In this project use data provided by [Motivate](https://motivateco.com/)
+ Git Commands Documentation Template
 
+Copy of the Git Commands Documentation [Template] (https://docs.google.com/document/d/1DoNBEQJyGHi0qAWpMpQM9lU9_VKh8ubdOY2BmKdvZcc/copy)
 
 

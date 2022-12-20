@@ -172,29 +172,36 @@ def user_stats(df,city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
     
-    
+  
 def display_row_data(df):
+    """Displays row data for any city the user ask """   
+    #ask user if he want to see row data
     choice = input('Do you like to see example from the raw Data, if you want type \'yes\' if else type \'no\' \n>').lower()
     c=['yes','no']
     print(choice)
     while choice not in c :
+       #check the user answer  
       choice=input("Enter yes or no ").lower()
  
     x=0   
+    #if the answer is no 
     if choice == 'no':
                  print('Thank you for Exploring US BikeShare')
-                 
+    #if the answer is yes             
     elif choice == 'yes':
                  #city, month, day = get_filters()
                  #df = load_data(city, month, day)
+                 #display five line of row data
                  print(df.iloc[x: x + 5])  
-                 
+                 #ask the user if he want to see more row data
                  more=input("more data  yes or no ")
                  if(more not in c):
+                    #check the user anwser 
                    more=input("enter yes or no ")     
                  while (more =='yes'):   
                     if x<(len(df.index)-5):    
                          x = x + 5
+                         #print five more row data
                          print(df.iloc[x: x + 5])
                          more=input("more data  yes or no ")
                          if(more not in c):

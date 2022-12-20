@@ -16,6 +16,7 @@ In this project use data provided by [Motivate](https://motivateco.com/)
  Git Commands Documentation Template
 
 Copy of the Git Commands 
-[Template](https://docs.google.com/documen1DoNBEQJyGHi0qAWpMpQM9lU9_VKh8ubdOY2BmKdvZcc/copy)
+[Template](https://docs.google.com/document/d/1DoNBEQJyGHi0qAWpMpQM9lU9_VKh8ubdOY2BmKdvZcc/copy)
+
 
 

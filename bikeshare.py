@@ -159,11 +159,11 @@ def user_stats(df,city):
       df['year'] = df['Birth Year'].dt.year
     
       maxyear=df['year'].max()
-      print('recent year of birth ',maxyear)
+      print('recent year of birth ',int(maxyear))
       commanyear=df['year'].mode()
-      print('most common year of birth ',commanyear)
+      print('most common year of birth ',int(commanyear))
       minyear=df['year'].min()
-      print('earliest year of birth ',minyear)  
+      print('earliest year of birth ',int(minyear))  
     else:print('counts of gender and  year of birth only available for NYC and Chicago')    
 
    
